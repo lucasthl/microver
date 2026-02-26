@@ -1,0 +1,13 @@
+[project]
+name = "microver"
+version = "0.1.0"
+dependencies = [
+    "pygame",
+    "flask",
+    "pyserial",
+    "opencv-python",
+    "waitress"
+]
+
+[project.scripts]
+microver = "microver.main:main"
