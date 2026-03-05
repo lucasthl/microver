@@ -6,7 +6,8 @@ dependencies = [
     "flask",
     "pyserial",
     "opencv-python",
-    "waitress"
+    "waitress",
+    "onnxruntime"
 ]
 
 [project.scripts]
