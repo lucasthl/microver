@@ -10,5 +10,9 @@ dependencies = [
     "onnxruntime"
 ]
 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project.scripts]
-microver = "microver.main:main"
+microver = "microver.__main__:main"
